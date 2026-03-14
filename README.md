@@ -46,7 +46,7 @@ Error de Red: Apaga el Docker e intenta loguearte; se vera el mensaje de error e
 🧠 Conclusión personal
 Este proyecto me ayudó a entender que el desarrollo móvil no es solo poner botones, sino saber gestionar la comunicación con un servidor.
 
-Cpaturas de pantalla de la tarea
+Capturas de pantalla de la tarea
 
 Esta pantalla confirma que la app y el servidor ya se comunican, lo cual logramos creando un backend en Python y montándolo dentro de un contenedor de Docker para que la conexión sea estable y fácil de ejecutar.
 
