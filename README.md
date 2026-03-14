@@ -50,23 +50,24 @@ Capturas de pantalla de la tarea
 
 Esta pantalla confirma que la app y el servidor ya se comunican, lo cual logramos creando un backend en Python y montándolo dentro de un contenedor de Docker para que la conexión sea estable y fácil de ejecutar.
 
+<img width="588" height="1265" alt="Image" src="https://github.com/user-attachments/assets/cdc1e53a-1832-4634-8df5-155cc996f986" />
 
+Pantalla de Inicio de Sesión: En esta parte la app verifica que el usuario y la contraseña sean correctos consultando la base de datos, confirmando con el mensaje en verde que nuestro servidor en Docker está encendido y listo para dejarnos pasar.
 
+<img width="624" height="1354" alt="Image" src="https://github.com/user-attachments/assets/e1f13412-3462-4697-b9bd-a4abb78fd4f7" />
 
+Pantalla de Bienvenida: Es la prueba final del acceso exitoso, donde usamos la función "Intent" de Android para pasar el nombre del usuario entre pantallas y mostrar un saludo personalizado después de validar los datos en el servidor.
 
+<img width="635" height="1354" alt="Image" src="https://github.com/user-attachments/assets/2db44619-271f-40dc-9c1a-539d202d175c" />
 
+Pantalla de Registro: En esta sección la app recolecta los datos del usuario y los envía al servidor para almacenarlos permanentemente en nuestra base de datos SQLite, asegurando que la cuenta exista la próxima vez que intente entrar.
 
+<img width="630" height="1354" alt="Image" src="https://github.com/user-attachments/assets/aecaf6d7-9675-415f-b69a-cc581aea89b9" />
 
+Consola del Servidor: Aquí podemos ver el cerebro del proyecto funcionando dentro de Docker, registrando en tiempo real cada vez que la aplicación se conecta o envía datos con éxito.
 
+<img width="918" height="172" alt="Image" src="https://github.com/user-attachments/assets/2bd17ee0-a3d9-4da8-ac3d-2a2ac3ed3d12" />
 
+Pantalla de Error de Red: En esta prueba apagamos el servidor para demostrar que la app es capaz de detectar la falta de conexión y avisar al usuario rápidamente, gracias a que configuramos un tiempo de espera de solo 5 segundos para que no se quede congelada.
 
-
-
-
-
-
-
-
-
-
-
+<img width="628" height="1353" alt="Image" src="https://github.com/user-attachments/assets/1def9ff2-300d-4589-886a-2d794dd0c772" />
